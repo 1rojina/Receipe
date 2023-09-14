@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Flavorsome Recipes</title>
+</head>
+
+<body>
+    <main>
+    <header>
+        <div class="logo">Recipes</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recipe Add</a></li>
+            </ul>
+    </header>
+    <div class="hero">
+        <div class="content">
+            <h4>Unleash Your Culinary Passion</h4>
+            <h1>Discover Taste Sensations</h1>
+            <h3>Elevate Your Cooking Game</h3>
+            <div class="button">Start Cooking</div>
+        </div>
+    </div>
+</main>
+   <section class="about">
+        <h2>About Us</h2>
+        <div class="main">
+            <img src="20 Indian Thali Ideas.jfif" alt="">
+            <div class="about-text">
+                <p>Welcome to our recipe website, where culinary inspiration meets delicious creations! Whether you're a
+                    seasoned chef or a passionate home cook, we are here to ignite your taste buds and guide you on a
+                    delightful culinary journey. Our extensive collection of recipes covers a wide range of cuisines,
+                    from comforting classics to innovative fusion dishes. Each recipe is thoughtfully crafted, tested,
+                    and presented with step-by-step instructions, ensuring that even the novice cook can create
+                    extraordinary meals. We believe that cooking is an art form that brings people together, and our
+                    goal is to empower you to explore your culinary creativity and make every meal a masterpiece. So
+                    come on in, explore our diverse recipe collection, and let's embark on a delightful gastronomic
+                    adventure together!</p>
+
+            </div>
+        </div>
+    </section>
+    <nav>
+      <h1 class="s1">Recipe Add</h1>
+    </nav>
+    <div class="container">
+       <!-- Add recipes form -->
+       <div class="left-column">
+        <h3 class="s1">Add Recipe</h3>
+        <form>
+          <label for="recipe-name">Name:</label>
+          <input type="text" id="recipe-name" required>
+          <br>
+          <label for="recipe-ingredients">Ingredients:</label>
+          <textarea id="recipe-ingredients" rows="5" required></textarea>
+          <br>
+          <label for="recipe-method">Method:</label>
+          <textarea id="recipe-method" rows="5" required></textarea>
+          <br>
+          <button type="submit">Add Recipe</button>
+        </form>
+      </div>
+      <!-- Search bar/view recipes list -->
+      <div class="right-column">
+        <div id="search-section">
+          <h3 class="s1">Recipes List</h3>
+          <label for="search-box">Search:</label>
+          <input type="text" id="search-box">
+        </div>
+        <div id="recipe-list"></div>
+        <div id="no-recipes">You have no recipes.</div>
+      </div>
+    </div>
+    <script src="rojina.js"></script>
+  </body>
+</html>
