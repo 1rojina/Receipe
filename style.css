@@ -146,7 +146,7 @@
       width: 65%;
     }
     
-    /* Styling for the Add Recipes form */
+    
     form {
       display: flex;
       flex-direction: column;
@@ -174,7 +174,7 @@
       cursor: pointer;
     }
     
-    /* Styling for list of recipes */
+    
     #recipe-list {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -189,7 +189,7 @@
         margin-top: 44px;
     }
     
-    /* styling for single recipe div */
+    
     .recipe {
       border: 1px solid #ccc;
       padding: 10px;
@@ -212,7 +212,6 @@
       margin-bottom: 5px;
     }
     
-    /* Delete button styling */
     .delete-button {
       background-color: #dc3545;
       color: #fff;
@@ -226,7 +225,7 @@
       background-color: #c82333;
     }
     
-    /* Search label styling */
+    
     label[for="search-box"] {
       display: block;
       margin-bottom: 10px;
